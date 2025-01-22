@@ -1,0 +1,206 @@
+.datuAbout{
+	width: 100%;
+	height: 500px;
+	border: solid 1px black;
+	background: url(../image/bg1.jpg);
+	background-size: 100% 100%;
+}
+
+.datuAbout h1{
+	font-size: 60px;
+	margin-bottom:18px;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+	margin-top: 200px;
+	text-shadow: 0px 3px 6px #00000029;
+}
+.datuAbout h2{
+	font-size: 60px;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+	margin-top: -40px;
+	text-shadow: 0px 3px 6px #00000029;
+}
+
+/* WHAT */
+.WHAT{
+	width: 100%;
+	height: 100px;
+}
+.zuotu{
+	width: 350px;
+	height: 600px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+.zuotu img{
+	width: 100%;
+	height: 100%;
+}
+.youwen{
+	width: 770px;
+	height: 550px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 120px;
+}
+.youwen h3{
+	color: #355C46;
+	font-family: Roboto;
+}
+.youwen p{
+	font-family: Roboto;
+	color: #355C46;
+	font-family: Roboto;
+}
+
+.WHY{
+	position: relative;
+	top:800px;
+	width: 100%;
+	height: 850px;
+	background: url(../image/bg1_blur.png);
+	background-size: 100% 100%;  	
+}
+.WHY h2{
+	position: absolute;
+	top:1%;
+	color: white;
+	font-family: Roboto;
+	margin-left: 90px;
+	margin-bottom: 50px;
+	margin-top: 90px;
+}
+.FlipBoxes{
+	position: absolute;
+	left: 7%;
+	top:20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SDH{
+	width: 300px;
+	height: 450px;
+	float: left;
+	margin-top: 50px;
+	transform-style: preserve-3d;
+	transition: all 1s;
+	background: white;
+	box-shadow: 5px 5px 20px;
+	border-radius: 20px
+}
+.SDHH{
+	width: 300px;
+	height: 450px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	transform-style: preserve-3d;
+	transition: all 1s;
+	background: white;
+	box-shadow: 5px 5px 20px;
+	border-radius: 20px
+}
+.SDHHH{
+	width: 300px;
+	height: 450px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	transform-style: preserve-3d;
+	transition: all 1s;
+	background: white;
+	box-shadow: 5px 5px 20px;
+	border-radius: 20px
+}
+.FZ{
+	transform: rotateY(180deg);
+}
+.zhengmian{
+	z-index: 10;
+	backface-visibility: hidden;
+}
+.zhengmian img{
+	width: 100%;
+	height: 200px;
+	border-radius: 20px;
+}
+.SDZ{
+	width: 250px;
+	height: 200px;
+	margin: auto;
+/* 	border: solid 1px black; */
+}
+.SDZ p{
+	font-size: 14px;
+	color: #355C46;
+	font-family: Roboto;
+}
+.fanmian{
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	z-index: 1;
+}
+.fanmian img{
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin-top: -314px;
+	border-radius: 20px;
+
+}
+.FSDZ{
+	width: 250px;
+	height: 100px;
+	margin: auto;
+	margin-top: -120px;
+}
+.FSDZ p{
+	font-size: 14px;
+	font-family: Roboto;
+	color: #355C46;
+	float: left;
+}
+#dian{
+	width: 50px;
+	height: 50px;
+	float: left;
+	/* margin-top:-90px; */
+	margin-left: 120px;
+}
+#diann{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top:-15px;
+	margin-left: 120px;
+	border: none;
+	background: url(../image/FlipGroup.png);
+	background-size: 100% 100%;
+}
+#diannn{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top:25px;
+	margin-left: 120px;
+	border: none;
+	background: url(../image/FlipGroup.png);
+	background-size: 100% 100%;
+
+}
+.SDH button{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top:-2px;
+	margin-left: 120px;
+	border: none;
+	background: url(../image/FlipGroup.png);
+	background-size: 100% 100%;
+
+}

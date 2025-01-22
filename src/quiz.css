@@ -1,0 +1,143 @@
+.datuq {
+  width: 100%;
+  height: 250px;
+  border: solid 1px black;
+  background: url(../image/bg1_blur.png);
+  background-size: 100% 400%;
+}
+
+.wenzi{
+ height: 120px;
+}
+.question-container{
+ padding: 60px 50px 0;
+ width: 80%;
+ text-align: center;
+ margin: auto;
+ border-radius: 5px;
+}
+.question{
+ font-size: 13px;
+ font-weight: 600;
+ padding-bottom: 50px;
+}
+.question-number{
+ font-size: 17px;
+ font-weight: 700;
+ padding-bottom: 5px;
+}
+.option{
+ padding: 9px 17px 6px;
+ margin-bottom: 20px;
+ cursor: pointer;
+ width:fit-content;
+ border: 1px solid #0000;
+ display: flex;
+ align-items: center;
+ font-size: 13px;
+    color: black;
+    border-radius: 5px;
+}
+.option:hover{
+ border: 1px solid #707070;
+ border-radius: 5px;
+}
+.option-span{
+ border: 1px solid #ccc;
+ width: 30px;
+ height: 30px;
+ margin-right: 20px;
+ position: relative;
+ color: #0000;
+ border-radius: 5px;
+}
+
+.option-bright>.option-span::before{
+ content: "";
+ position: absolute;
+ width: 70%;
+ height: 70%;
+ top: 50%;
+ left: 50%;
+ background-color: #5a865a !important;
+ transform: translate(-50%,-50%);
+ border-radius: 5px;
+}
+.option-span-bright::before{
+ content: "";
+ position: absolute;
+ width: 70%;
+ height: 70%;
+ top: 50%;
+ left: 50%;
+ background-color: #c13e3e !important;
+ transform: translate(-50%,-50%);
+ border-radius: 5px;
+}
+
+.button{
+ border-radius: 20px;
+ width: fit-content;
+ background-color: #355c46  !important;
+ padding: 3px 40px;
+ color: #fff;
+ position: absolute;
+ left: 50%;
+ transform: translate(-80%,0);
+ cursor: pointer;
+ box-shadow: 0px 2px 3px 1px #ccc;
+ margin-top: 10px;
+}
+
+.here{
+ border: 1px solid #707070;
+}
+.here>.option-span::before{
+ content: "";
+ position: absolute;
+ width: 70%;
+ height: 70%;
+ top: 50%;
+ left: 50%;
+ background-color: #ccc;
+ transform: translate(-50%,-50%);
+ border-radius: 5px;
+}
+.noHere{
+ border-color: #0000;
+}
+.noHere:hover{
+ border-color: #0000;
+}
+
+
+.flex{
+ display: flex;
+ align-items: start;
+ justify-content: center;
+}
+
+.flex .button{
+ position: relative;
+ bottom: -100px;
+ left: 15%;
+ transform: translate(0,0);
+}
+
+.flex .buttons-container{
+ width: 380px;
+ background: #f8f8f8;
+ padding: 0 40px 30px;
+ margin-left: 50px;
+ border-radius: 10px;
+}
+.title{
+ text-align: center;
+ font-size: 14px;
+ font-weight: 700;
+ padding: 18px 0;
+}
+
+.explanation{
+ font-size: 12px;
+}
